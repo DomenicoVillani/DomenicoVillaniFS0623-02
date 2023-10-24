@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="primi passi operativi per creare un moello di pagina HTML per un post, ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sviluppo di una pagina web - Blog Epicode</title>
+    </head>
+    <body>
+        <header>
+            <img src="assets/img/logo.svg" alt="Logo Epicode">
+            <h1>Epicode - il blog dei developers</h1>        
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articoli</a></li>
+                <li><a href="#">Lavora con noi</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div>
+                <h2>Come creare un template per i post di Mario Rossi - pubblicato il 25-10-2020</h2>
+            </div>
+            <section>
+                    <p>
+                        La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine
+                    </p>
+                    <figure>
+                        <figcaption>Le varie aree saranno quindi suddivise in:</figcaption>
+                        <ul>
+                            <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+                            <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+                            <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+                        </ul>   
+                    </figure>
+                    <h3>Formattaizone del codice</h3>
+                    <p>
+                        Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+                    </p>
+                    <ol>
+                        <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                        <li>Applicare gli stili CSS</li>
+                    </ol> 
+
+                    <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale. </p>
+                    <table>
+                        <caption>Diffusione dei CSS </caption>
+                        <thead>
+                                <tr>
+                                    <th>Anno</th>
+                                    <th> % di utilizzo </th>
+                                    <th>Supporto browsers</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <th>2000</th>
+                                    <th>20%</th>
+                                    <th>17%</th>
+                                </tr>
+                                <tr>
+                                    <th>2002</th>
+                                    <th>35%</th>
+                                    <th>22%</th>
+                                </tr>
+                                <tr>
+                                    <th>2004</th>
+                                    <th>45%</th>
+                                    <th>42%</th>
+                                </tr>
+                                <tr>
+                                    <th>2008</th>
+                                    <th>80%</th>
+                                    <th>51%</th>
+                                </tr>
+                                <tr>
+                                    <th>2012</th>
+                                    <th>100%</th>
+                                    <th>76%</th>
+                                </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        Un test di validazione potrà essere fatto tramite il <a href="https://validator.w3.org" title="Link esterno per controllare la validazione" target="_blank">tool online</a> dedicato allo scopo. 
+                    </p>
+                    <p> 
+                        Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro: 
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ek40kaV9IZY?si=Y29D2vQM8Ed8cq20" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section>
+                    <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+                    <label for="emailUtente">Inserisci la tua email:</label>
+                    <input type="email" id="emailUtente" name="emailUtente" placeholder="Inserisci la tua Email" required>
+                    <button type="submit">Iscrivit!</button>        
+            </section>
+            <aside>
+                <h4>Articoli correlati</h4>
+                    <p>
+                        <a href="#">Validare il codice HTML </a><br>
+                        Categoria: develop <br>
+                        Data: 18-9-2020
+                    </p>
+                    <p>
+                        <a href="#">Correggere la sintassi </a><br>
+                        Categoria: develop <br>
+                        Data: 16-9-2020
+                    </p>
+                    <p>
+                        <a href="#">Meno Kb nella pagina </a><br>
+                        Categoria: ottimizzazione <br>
+                        Data: 30-9-2020
+                    </p> 
+                </aside>
+        </main>
+        <footer>
+            <address>Blog Epicode &copy;2023 - Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a> </address>
+
+        </footer>
+    </body>
+</html>
